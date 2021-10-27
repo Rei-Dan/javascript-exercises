@@ -35,3 +35,14 @@ function min(a, b) {
     return b;
   } else return "they are the same";
 }
+
+const sumAll = function () {
+  let sum = 0;
+  if (typeof arguments[0] === "number" && typeof arguments[1] === "number") {
+    for (let i = arguments[1]; i > arguments[0] - 1; i--) {
+      sum += i;
+      console.log[sum];
+    }
+  } else sum = "ERROR";
+  return sum;
+};
